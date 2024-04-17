@@ -128,13 +128,3 @@
 * **Description**: Clinicians that bill Medicare Part B  
 * **Source**: (for most recent year) https://data.cms.gov/provider-data/search?theme=Doctors%20and%20clinicians
 * **Also See**: https://qpp.cms.gov/mips/mvps/learn-about-mips
-
-## American Hospital Association Survey
-* **Lab Sources**: 
-* **Limited Data Set**  
-* **Unit of Analysis**: 
-* **Use Case**:  
-* **Other Information**:  
-* **Description**: 
-* **Source**: 
-* **Also See**: 
