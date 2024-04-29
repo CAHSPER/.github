@@ -5,7 +5,7 @@
 # Available Data Sets
 
 ## NEDS (HCUP)
-* **Lab Sources**: Brown Lab (2006-2020), Johnston Lab (2017-2020)**
+* **Lab Sources**: Brown Lab (2006-2020), Johnston Lab (2017-2021)
 * **Limited Data Set**  
 * **Unit of Analysis**: ED Visit/Discharge  
 * **Use Case**: for ED visit analysis
@@ -15,7 +15,7 @@
 * **Also See**:https://github.com/CAHSPER/HCUP/tree/main/NEDS
 
 ## NIS (HCUP)
-* **Lab Sources**: Joynt Maddox Lab (2012-2020), Johnston Lab (2017-2020)
+* **Lab Sources**: Joynt Maddox Lab (2012-2020), Johnston Lab (2017-2021)
 * **Limited Data Set**  
 * **Unit of Analysis**: Inpatient Stay/ Discharge  
 * **Use Case**: for inpatient hospital analysis
@@ -23,6 +23,33 @@
 * **Description**: The National Inpatient Sample is part of the Healthcare Cost and Utilization Project (HCUP) developed by the Agency for Healthcare Research and Quality
 * **Source**: https://hcup-us.ahrq.gov/nisoverview.jsp
 * **Also See**: https://github.com/CAHSPER/HCUP/tree/main/NIS
+
+## State Inpatient Database (SID)
+* **Lab Sources**: Mobley Butler Lab (FL: 2015-2021), Brown Lab (AZ: 2016-2021; CA: 2005-2011; FL: 2005-2021; MD: 2005-2021; NC: 2016-2020; NJ: 2005-2020; NY: 2016-2020)
+* **Limited Data Set**  
+* **Unit of Analysis**: Inpatient Stay/ Discharge (Patient-linkable)
+* **Use Case**: for inpatient hospital analysis
+* **Other Information**: links to AHA annual survey
+* **Description**: The State Inpatient Databases (SID) are part of the family of databases and software tools developed for the Healthcare Cost and Utilization Project (HCUP). The SID includes inpatient discharge records from community hospitals in that State. The SID files encompass all patients, regardless of payer, providing a unique view of inpatient care in a defined market or State over time.  
+* **Source**: https://hcup-us.ahrq.gov/sidoverview.jsp
+
+## State Emergency Department Database (SEDD)
+* **Lab Sources**: Brown Lab (AZ: 2016-2021; CA: 2005-2011; FL: 2005-2021; MD: 2005-2021; NC: 2016-2020; NJ: 2005-2020; NY: 2016-2020)
+* **Limited Data Set**  
+* **Unit of Analysis**: ED Visit/ Discharge (Patient-linkable)  
+* **Use Case**: for ED visit analysis
+* **Other Information**: links to AHA annual survey
+* **Description**: The State Emergency Department Databases (SEDD) are a set of longitudinal State-specific emergency department (ED) databases included in the HCUP family. The SEDD capture discharge information on all emergency department visits that do not result in an admission.  
+* **Source**: https://hcup-us.ahrq.gov/db/state/sedddbdocumentation.jsp
+
+## Missouri Hospital Association/ Hospital Industry Data Institute (MHA/HIDI)
+* **Lab Sources**: McBride Lab (2015-2023)
+* **Limited Data Set**  
+* **Unit of Analysis**: Hospital (facility level) encounter claims
+* **Use Case**:  
+* **Other Information**:  
+* **Description**: like SID and SEDD from MO in one file
+* **Source**: https://web.mhanet.com/affiliates-business-services-partnerships/hospital-industry-data-institute/
 
 ## MCBS
 * **Lab Sources**: Johnston Lab (2015-2021)
@@ -32,8 +59,6 @@
 * **Other Information**: Links to Medicare Plan-level Data
 * **Description**: The Medicare Current Beneficiary Survey is a continuous, multipurpose survey of a nationally representative sample of the Medicare population.
 * **Source**: https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey
-* **Also See**:
-
 
 ## Medicare Master Beneficiary Summary Files  
 * **Lab Sources**: Joynt Maddox Lab (2012-2018; MBSF A/B/C/D, 27 CCW, Other Chronic or Potentially Disabling Conditions, Cost and Use)
@@ -45,7 +70,6 @@
 * **Source**: https://www2.ccwdata.org/web/guest/data-dictionaries  
 * **Also See**: https://resdac.org/cms-data?tid_1%5B1%5D=1&tid%5B6046%5D=6046
 
-
 ## Area Health Resource Files
 * **Lab Sources**: Johnston Lab (2006-2022)
 * **Public Data Set**   
@@ -54,27 +78,6 @@
 * **Other Information**: Links to patient/provider county of residence
 * **Description**: The AHRF is released annually by the Bureau of Health Workforce. M.D. County Level File includes M.D. with active or inactive status, classified or not classified status, and employed by federal government or non-federal industry.
 * **Source**: https://data.hrsa.gov/topics/health-workforce/ahrf
-* **Also See**:
-
-## State Inpatient Database (SID)
-* **Lab Sources**: Mobley Butler Lab (FL: 2015-2021), Brown Lab (AZ: 2016-2021; CA: 2005-2011; FL: 2005-2021; MD: 2005-2021; NC: 2016-2020; NJ: 2005-2020; NY: 2016-2020)
-* **Limited Data Set**  
-* **Unit of Analysis**: Inpatient Stay/ Discharge (Patient-linkable)
-* **Use Case**: for inpatient hospital analysis
-* **Other Information**: links to AHA annual survey
-* **Description**: The State Inpatient Databases (SID) are part of the family of databases and software tools developed for the Healthcare Cost and Utilization Project (HCUP). The SID includes inpatient discharge records from community hospitals in that State. The SID files encompass all patients, regardless of payer, providing a unique view of inpatient care in a defined market or State over time.  
-* **Source**: https://hcup-us.ahrq.gov/sidoverview.jsp
-* **Also See**: 
-
-## State Emergency Department Database (SEDD)
-* **Lab Sources**: Brown Lab (AZ: 2016-2021; CA: 2005-2011; FL: 2005-2021; MD: 2005-2021; NC: 2016-2020; NJ: 2005-2020; NY: 2016-2020)
-* **Limited Data Set**  
-* **Unit of Analysis**: ED Visit/ Discharge (Patient-linkable)  
-* **Use Case**: for ED visit analysis
-* **Other Information**: links to AHA annual survey
-* **Description**: The State Emergency Department Databases (SEDD) are a set of longitudinal State-specific emergency department (ED) databases included in the HCUP family. The SEDD capture discharge information on all emergency department visits that do not result in an admission.  
-* **Source**: https://hcup-us.ahrq.gov/db/state/sedddbdocumentation.jsp
-* **Also See**: 
 
 ## United State Renal Data System (USRDS)
 * **Lab Sources**: Mobley Butler Lab (2005-2020)
@@ -86,16 +89,6 @@
 * **Source**: https://www.niddk.nih.gov/about-niddk/strategic-plans-reports/usrds/for-researchers/researchers-guide 
 * **Also See**: https://gowustl-my.sharepoint.com/:x:/g/personal/tabman_wustl_edu/EYI62RFMKgpFug-_KV007VkBNkZ3-Zhd9sJ77e6idTMnCg?e=MOKqAO   
 
-## Missouri Hospital Association/ Hospital Industry Data Institute (MHA/HIDI)
-* **Lab Sources**: McBride Lab (2015-2023)
-* **Limited Data Set**  
-* **Unit of Analysis**: Hospital (facility level) encounter claims
-* **Use Case**:  
-* **Other Information**:  
-* **Description**: like SID and SEDD from MO in one file
-* **Source**: https://web.mhanet.com/affiliates-business-services-partnerships/hospital-industry-data-institute/
-* **Also See**: 
-
 ## Medical Expenditure Panel Survey
 * **Lab Sources**: McBride Lab (1996-2023)
 * **Public and Restricted Data Sets**  
@@ -104,7 +97,6 @@
 * **Other Information**:  
 * **Description**: MEPS collects data on the specific health services that Americans use, how frequently they use them, the cost of these services, and how they are paid for, as well as data on the cost, scope, and breadth of health insurance held by and available to U.S. workers.  
 * **Source**: https://meps.ahrq.gov/mepsweb/data_stats/data_overview.jsp
-* **Also See**: 
 
 ## Market Scan
 * **Lab Sources**: Mobley Butler Lab (Commercial: 2006-2022; Multi-state Medicaid: 2010-2022)
@@ -117,7 +109,6 @@
     * Multiple states of Medicaid data, but names of states are unknown; no geography provided
 * **Description**: 
 * **Source**: https://www.merative.com/documents/brief/marketscan-explainer-general
-* **Also See**: 
 
 ##  Merit-based Incentive Payment System (MIPS)
 * **Lab Sources**: Johnston (2017-2021)
