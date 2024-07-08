@@ -1,3 +1,6 @@
+# Guides
+[Guides to using RIS services](https://github.com/CAHSPER/.github/wiki)  
+
 # Requesting Data Sets
 [Data Request Form](https://forms.office.com/r/StKkLuj0VD)
 (requires WUSTL Office login)
