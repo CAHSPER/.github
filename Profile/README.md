@@ -112,7 +112,7 @@
     * Multiple states of Medicaid data, but names of states are unknown; no geography provided
 * **Description**: 
 * **Source**: https://www.merative.com/documents/brief/marketscan-explainer-general
-
+  
 ##  Merit-based Incentive Payment System (MIPS)
 * **Lab Sources**: Johnston (2017-2021)
 * **Public Data Set**  
@@ -122,3 +122,13 @@
 * **Description**: Clinicians that bill Medicare Part B  
 * **Source**: (for most recent year) https://data.cms.gov/provider-data/search?theme=Doctors%20and%20clinicians
 * **Also See**: https://qpp.cms.gov/mips/mvps/learn-about-mips
+
+## American Hospital Association Survey
+* **Lab Sources**: Center, Lin Lab
+* **Limited Data Set**  
+* **Unit of Analysis**: Hospital
+* **Use Case**:  Comparing facilities
+* **Other Information**:  
+* **Description**: 
+* **Source**: https://wrds-www.wharton.upenn.edu/register/
+* **Also See**: 
