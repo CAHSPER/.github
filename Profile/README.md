@@ -8,7 +8,7 @@
 # Available Data Sets
 
 ## NEDS (HCUP)
-* **Lab Sources**: Brown Lab (2006-2020), Johnston Lab (2017-2021)
+* **Lab Sources**: Brown Lab (2006-2020), Johnston Lab (2017-2022)
 * **Limited Data Set**  
 * **Unit of Analysis**: ED Visit/Discharge  
 * **Use Case**: for ED visit analysis
@@ -18,7 +18,7 @@
 * **Also See**:https://github.com/CAHSPER/HCUP/tree/main/NEDS
 
 ## NIS (HCUP)
-* **Lab Sources**: Joynt Maddox Lab (2012-2020), Johnston Lab (2017-2021)
+* **Lab Sources**: Joynt Maddox Lab (2012-2020), Johnston Lab (2017-2022)
 * **Limited Data Set**  
 * **Unit of Analysis**: Inpatient Stay/ Discharge  
 * **Use Case**: for inpatient hospital analysis
@@ -55,7 +55,7 @@
 * **Source**: https://web.mhanet.com/affiliates-business-services-partnerships/hospital-industry-data-institute/
 
 ## MCBS
-* **Lab Sources**: Johnston Lab (2015-2021)
+* **Lab Sources**: Johnston Lab (2015-2022)
 * **Limited Data Set**  
 * **Unit of Analysis**: Beneficiary and Claims for Medicare Administrative Data Linked to Patient Surveys
 * **Use Case**:  Comparison of Quality of Care in Medicare Advantage vs Traditional Medicare
@@ -114,7 +114,7 @@
 * **Source**: https://www.merative.com/documents/brief/marketscan-explainer-general
   
 ##  Merit-based Incentive Payment System (MIPS)
-* **Lab Sources**: Johnston (2017-2021)
+* **Lab Sources**: Johnston (2017-2022)
 * **Public Data Set**  
 * **Unit of Analysis**: Clinician
 * **Use Case**: Medicare physician quality and performance measurement 
@@ -123,12 +123,13 @@
 * **Source**: (for most recent year) https://data.cms.gov/provider-data/search?theme=Doctors%20and%20clinicians
 * **Also See**: https://qpp.cms.gov/mips/mvps/learn-about-mips
 
-## American Hospital Association Survey
-* **Lab Sources**: Center, Lin Lab
+## American Hospital Association (AHA) Survey
+* **Lab Sources**: Center, Lin Lab (AHA Annual Survey: 2005-2023, AHA IT Survey: 2008-2023)
 * **Limited Data Set**  
 * **Unit of Analysis**: Hospital
-* **Use Case**:  Comparing facilities
-* **Other Information**:  
-* **Description**: 
+* **Use Case**: Survey of US hospitals on structural characteristics, vertical and horizontal integration/affiliations, services offered, IT capabilities, revenue sources, etc.; also can be linked to other datasets (e.g., Claims)
+* **Other Information**:
+    * Accessible through Wharton Data Services
+* **Description**: https://www.ahadata.com/aha-data-resources for survey instruments and file layouts
 * **Source**: https://wrds-www.wharton.upenn.edu/register/
-* **Also See**: 
+* **Also See**: https://wrds-www.wharton.upenn.edu/pages/about/data-vendors/american-hospital-association/ (Requires registration with WashU ID to access)
