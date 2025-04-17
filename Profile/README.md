@@ -9,7 +9,7 @@
 
 ## NEDS (HCUP)
 * **Lab Sources**: Brown Lab (2006-2022), Johnston Lab (2017-2021)
-* **Limited Data Set**  
+* **Security Level**: Limited Data Set
 * **Unit of Analysis**: ED Visit/Discharge  
 * **Use Case**: for ED visit analysis
 * **Other Information**: Uses national survey weights
@@ -19,7 +19,7 @@
 
 ## NIS (HCUP)
 * **Lab Sources**: Joynt Maddox Lab (2012-2022), Johnston Lab (2017-2021)
-* **Limited Data Set**  
+* **Security Level**: Limited Data Set 
 * **Unit of Analysis**: Inpatient Stay/ Discharge  
 * **Use Case**: for inpatient hospital analysis
 * **Other Information**: Uses national survey weights
@@ -29,7 +29,7 @@
 
 ## State Inpatient Database (SID)
 * **Lab Sources**: Mobley Butler Lab (FL: 2015-2021), Brown Lab (AZ: 2016-2021; CA: 2005-2011; FL: 2005-2021; MD: 2005-2021; NC: 2016-2020; NJ: 2005-2020; NY: 2016-2020)
-* **Limited Data Set**  
+* **Security Level**: Limited Data Set  
 * **Unit of Analysis**: Inpatient Stay/ Discharge (Patient-linkable)
 * **Use Case**: for inpatient hospital analysis
 * **Other Information**: links to AHA annual survey
@@ -38,7 +38,7 @@
 
 ## State Emergency Department Database (SEDD)
 * **Lab Sources**: Brown Lab (AZ: 2016-2021; CA: 2005-2011; FL: 2005-2021; MD: 2005-2021; NC: 2016-2020; NJ: 2005-2020; NY: 2016-2020)
-* **Limited Data Set**  
+* **Security Level**: Limited Data Set 
 * **Unit of Analysis**: ED Visit/ Discharge (Patient-linkable)  
 * **Use Case**: for ED visit analysis
 * **Other Information**: links to AHA annual survey
@@ -47,7 +47,7 @@
 
 ## Missouri Hospital Association/ Hospital Industry Data Institute (MHA/HIDI)
 * **Lab Sources**: McBride Lab (2015-2023)
-* **Limited Data Set**  
+* **Security Level**: Limited Data Set
 * **Unit of Analysis**: Hospital (facility level) encounter claims
 * **Use Case**:  
 * **Other Information**:  
@@ -56,7 +56,7 @@
 
 ## MCBS
 * **Lab Sources**: Johnston Lab (2015-2022)
-* **Limited Data Set**  
+* **Security Level**: Limited Data Set  
 * **Unit of Analysis**: Beneficiary and Claims for Medicare Administrative Data Linked to Patient Surveys
 * **Use Case**:  Comparison of Quality of Care in Medicare Advantage vs Traditional Medicare
 * **Other Information**: Links to Medicare Plan-level Data
@@ -65,7 +65,7 @@
 
 ## Medicare Master Beneficiary Summary Files  
 * **Lab Sources**: Joynt Maddox Lab (2012-2018; MBSF A/B/C/D, 27 CCW, Other Chronic or Potentially Disabling Conditions, Cost and Use)
-* **Identifiable Data Set**  
+* **Security Level**: Research Identifiable Data Set  
 * **Unit of Analysis**:  Medicare Beneficiary    
 * **Use Case**:  Compare beneficiary characteristics by Medicare plan type
 * **Other Information**:  Medicare data summarized at beneficiary level
@@ -75,7 +75,7 @@
 
 ## Area Health Resource Files
 * **Lab Sources**: Johnston Lab (2006-2022)
-* **Public Data Set**   
+* **Security Level**: Public Data Set 
 * **Unit of Analysis**: County level  
 * **Use Case**: for geographic supply of medical providers
 * **Other Information**: Links to patient/provider county of residence
@@ -84,7 +84,7 @@
 
 ## United State Renal Data System (USRDS)
 * **Lab Sources**: Mobley Butler Lab (2005-2020)
-* **Limited Data Set**  
+* **Security Level**: Limited Data Set
 * **Unit of Analysis**: CKD/ESRD Patient Claims, Provider Data
 * **Use Case**:  
 * **Other Information**: can link with patient cohorts by USRDS
@@ -94,7 +94,7 @@
 
 ## Medical Expenditure Panel Survey
 * **Lab Sources**: McBride Lab (1996-2023)
-* **Public and Restricted Data Sets**  
+* **Security Level**: Public and Restricted Data Sets
 * **Unit of Analysis**: families and individuals, medical providers, and employers
 * **Use Case**:  Analysis of use and cost of services
 * **Other Information**:  
@@ -103,7 +103,7 @@
 
 ## Market Scan
 * **Lab Sources**: Mobley Butler Lab (Commercial: 2006-2022; Multi-state Medicaid: 2010-2022)
-* **Limited Data Set**  
+* **Security Level**: Research Identifiable Data Set  
 * **Unit of Analysis**: Patient claim level 
 * **Use Case**: Comprehensive health care claims data for inpatient and outpatient provider and facility claims and prescription drug claims 
 * **Other Information**: 
@@ -115,7 +115,7 @@
   
 ##  Merit-based Incentive Payment System (MIPS)
 * **Lab Sources**: Johnston (2017-2022)
-* **Public Data Set**  
+* **Security Level**: Public Data Set
 * **Unit of Analysis**: Clinician
 * **Use Case**: Medicare physician quality and performance measurement 
 * **Other Information**: 
@@ -125,7 +125,7 @@
 
 ## American Hospital Association (AHA) Survey
 * **Lab Sources**: Center, Lin Lab (AHA Annual Survey: 2005-2023, AHA IT Survey: 2008-2023)
-* **Limited Data Set**  
+* **Security Level**: Limited Data Set  
 * **Unit of Analysis**: Hospital
 * **Use Case**: Survey of US hospitals on structural characteristics, vertical and horizontal integration/affiliations, services offered, IT capabilities, revenue sources, etc.; also can be linked to other datasets (e.g., Claims)
 * **Other Information**:
@@ -136,11 +136,21 @@
 
 ## Medicare Health Outcomes Survey (MHOS)
 * **Lab Sources**: Johnston (2015-2023)
-* **Limited Data Set**  
+* **Security Level**: Research Identifiable Data Set
 * **Unit of Analysis**: Medicare Advantage beneficiary
-* **Use Case**: Longitudinal patient-reported outcomes survey assessing physical and mental health status of Medicare Advantage enrollees; useful for evaluating health-related quality of life, program effectiveness, disparities in health outcomes, and linking to MA plan characteristics or claims data
+* **Use Case**: Comparing Medicare Advantage plans on patient-reported outcomes
 * **Other Information**:
    * Includes baseline and follow-up surveys; beneficiaries are followed for 2 years; survey administered by CMS
-* **Description**:   
+* **Description**: Longitudinal patient-reported outcomes survey assessing physical and mental health status of Medicare Advantage enrollees; useful for evaluating health-related quality of life, program effectiveness, disparities in health outcomes, and linking to MA plan characteristics or claims data   
 * **Source**: CMS
-* **Also See**: https://www.hosonline.org/en/data-dissemination/research-data-files/ 
+* **Also See**: https://www.hosonline.org/en/data-dissemination/research-data-files/
+
+## AHRQ Health System Compendium
+* **Lab Sources**: 
+* **Security Level**: 
+* **Unit of Analysis**: 
+* **Use Case**: 
+* **Other Information**:
+* **Description**:    
+* **Source**: 
+* **Also See**: 
