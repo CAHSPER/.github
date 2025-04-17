@@ -8,7 +8,7 @@
 # Available Data Sets
 
 ## NEDS (HCUP)
-* **Lab Sources**: Brown Lab (2006-2020), Johnston Lab (2017-2022)
+* **Lab Sources**: Brown Lab (2006-2022), Johnston Lab (2017-2021)
 * **Limited Data Set**  
 * **Unit of Analysis**: ED Visit/Discharge  
 * **Use Case**: for ED visit analysis
@@ -18,7 +18,7 @@
 * **Also See**:https://github.com/CAHSPER/HCUP/tree/main/NEDS
 
 ## NIS (HCUP)
-* **Lab Sources**: Joynt Maddox Lab (2012-2020), Johnston Lab (2017-2022)
+* **Lab Sources**: Joynt Maddox Lab (2012-2022), Johnston Lab (2017-2021)
 * **Limited Data Set**  
 * **Unit of Analysis**: Inpatient Stay/ Discharge  
 * **Use Case**: for inpatient hospital analysis
@@ -133,3 +133,14 @@
 * **Description**: https://www.ahadata.com/aha-data-resources for survey instruments and file layouts
 * **Source**: https://wrds-www.wharton.upenn.edu/register/
 * **Also See**: https://wrds-www.wharton.upenn.edu/pages/about/data-vendors/american-hospital-association/ (Requires registration with WashU ID to access)
+
+## Medicare Health Outcomes Survey (MHOS)
+* **Lab Sources**: Johnston (2015-2023)
+* **Limited Data Set**  
+* **Unit of Analysis**: Medicare Advantage beneficiary
+* **Use Case**: Longitudinal patient-reported outcomes survey assessing physical and mental health status of Medicare Advantage enrollees; useful for evaluating health-related quality of life, program effectiveness, disparities in health outcomes, and linking to MA plan characteristics or claims data
+* **Other Information**:
+   * Includes baseline and follow-up surveys; beneficiaries are followed for 2 years; survey administered by CMS
+* **Description**:   
+* **Source**: CMS
+* **Also See**: https://www.hosonline.org/en/data-dissemination/research-data-files/ 
