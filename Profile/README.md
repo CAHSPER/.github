@@ -107,9 +107,9 @@
 * **Unit of Analysis**: Patient claim level 
 * **Use Case**: Comprehensive health care claims data for inpatient and outpatient provider and facility claims and prescription drug claims 
 * **Other Information**: 
-    * Need to go through ADCS and complete DUA for access
-    * Need project-level permission to report on geographic unit smaller than US census region or division (i.e., state level analysis)
-    * Multiple states of Medicaid data, but names of states are unknown; no geography provided
+   * Need to go through ADCS and complete DUA for access
+   * Need project-level permission to report on geographic unit smaller than US census region or division (i.e., state level analysis)
+   * Multiple states of Medicaid data, but names of states are unknown; no geography provided
 * **Description**: 
 * **Source**: https://www.merative.com/documents/brief/marketscan-explainer-general
   
@@ -128,8 +128,7 @@
 * **Security Level**: Limited Data Set  
 * **Unit of Analysis**: Hospital
 * **Use Case**: Survey of US hospitals on structural characteristics, vertical and horizontal integration/affiliations, services offered, IT capabilities, revenue sources, etc.; also can be linked to other datasets (e.g., Claims)
-* **Other Information**:
-    * Accessible through Wharton Data Services
+* **Other Information**: Accessible through Wharton Data Services
 * **Description**: https://www.ahadata.com/aha-data-resources for survey instruments and file layouts
 * **Source**: https://wrds-www.wharton.upenn.edu/register/
 * **Also See**: https://wrds-www.wharton.upenn.edu/pages/about/data-vendors/american-hospital-association/ (Requires registration with WashU ID to access)
@@ -139,18 +138,29 @@
 * **Security Level**: Research Identifiable Data Set
 * **Unit of Analysis**: Medicare Advantage beneficiary
 * **Use Case**: Comparing Medicare Advantage plans on patient-reported outcomes
-* **Other Information**:
-   * Includes baseline and follow-up surveys; beneficiaries are followed for 2 years; survey administered by CMS
+* **Other Information**: Includes baseline and follow-up surveys; beneficiaries are followed for 2 years; survey administered by CMS
 * **Description**: Longitudinal patient-reported outcomes survey assessing physical and mental health status of Medicare Advantage enrollees; useful for evaluating health-related quality of life, program effectiveness, disparities in health outcomes, and linking to MA plan characteristics or claims data   
 * **Source**: CMS
 * **Also See**: https://www.hosonline.org/en/data-dissemination/research-data-files/
 
 ## AHRQ Health System Compendium
-* **Lab Sources**: 
-* **Security Level**: 
-* **Unit of Analysis**: 
-* **Use Case**: 
+* **Lab Sources**: Johnston lab (2016, 2018, 2020, 2021, 2022, 2023)
+* **Security Level**: Public Data Set
+* **Unit of Analysis**: Health system
+* **Use Case**: Compare health systems that do versus do not assume insurance risk by operating Medicare Advantage plans
+* **Other Information**: Separate linkage files for hospitals, group practices, home health sites, nursing homes, and outpatient sites
+* **Description**: Compendia of U.S. health systems, defined as organizations with the same ownership or management entity that include at least 1 hospital and at least 1 large medical practice   
+* **Source**: AHRQ
+* **Also See**: Compendia of U.S. health systems, defined: https://www.ahrq.gov/chsp/data-resources/compendium.html
+
+## SEER-Medicaid
+* **Lab Sources**: Johnson Lab (1999-2019)
+* **Security Level**: Research Identifiable Data Set
+* **Unit of Analysis**: Individual cancer patients
+* **Use Case**: Analyses of the impact of Medicaid enrollment on cancer stage at diagnosis, surgery, and survival
 * **Other Information**:
-* **Description**:    
-* **Source**: 
-* **Also See**: 
+   * Need to apply at https://healthcaredelivery.cancer.gov/seermedicaid/obtain/. Fee for approved data is $1000
+   * It may also be possible to amend Dr. Johnson’s approved project for no fee
+* **Description**: Surveillance, Epidemiology, and End Results (SEER) registry data containing patient cancer diagnoses from 1999 to 2019 were linked to all 50 state and the District of Columbia Medicaid enrollment files from 1999 to 2020. Enrollment data from the Medicaid Analytic eXtract (MAX) Personal Summary file is available from 1999 to 2015 and the Transformed Medicaid Statistical Information Analytic File (TAF) Demographic and Eligibility File is available beginning in 2014  
+* **Source**: https://healthcaredelivery.cancer.gov/seermedicaid/ 
+* **Also See**:
